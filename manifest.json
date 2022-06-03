@@ -1,0 +1,27 @@
+{
+  "name": "AVANTI APPS - Criação de apontamentos no Jobber",
+  "description": "Extensão do Google Chrome que permite a um usuário logado no sistema Jobber a inserção de apontamentos de hora em jobs específicos, sem precisar abrir a página do job.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_title": "Adicione sua interação num job sem abrir o Jobber usando essa extensão!",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/jobber-favicon-16x16.png",
+      "32": "/images/jobber-favicon-32x32.png",
+      "48": "/images/jobber-favicon-48x48.png",
+      "128": "/images/jobber-favicon-128x128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/jobber-favicon-16x16.png",
+    "32": "/images/jobber-favicon-32x32.png",
+    "48": "/images/jobber-favicon-48x48.png",
+    "128": "/images/jobber-favicon-128x128.png"
+  },
+  "options_page": "options.html"
+}

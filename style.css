@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #17162e;
+  border: solid #17162e 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  color: #17162e;
+  background: #FFFFFF;
+  border: solid #17162e 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
+
+body {
+  height: 232px;
+  width: 175px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 170px;
+}
+
+.inputDescrição {
+  width: 167px;
+}
+
+select {
+  margin-bottom: 10px;
+  width: 175px;
+}
